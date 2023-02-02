@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/amemelwin.github.io/static/css/main.5cf582da.css",
+    "main.js": "/amemelwin.github.io/static/js/main.85257b67.js",
+    "static/js/787.1ed0c42c.chunk.js": "/amemelwin.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CVResume-ENG.pdf": "/amemelwin.github.io/static/media/CVResume-ENG.776bc0e76958e8502cc6.pdf",
+    "static/media/banner_amie.png": "/amemelwin.github.io/static/media/banner_amie.65853286699ae0441f96.png",
+    "static/media/photo.png": "/amemelwin.github.io/static/media/photo.10454b98a25f0f5eff2d.png",
+    "static/media/profile.png": "/amemelwin.github.io/static/media/profile.1a0afe55248b324af375.png",
+    "static/media/mobile_like.png": "/amemelwin.github.io/static/media/mobile_like.669a3d5a69851e1ec0d8.png",
+    "static/media/1.png": "/amemelwin.github.io/static/media/1.56bcc4e0df4f59ead615.png",
+    "static/media/mobile-mobile.png": "/amemelwin.github.io/static/media/mobile-mobile.14260d14313e448e004a.png",
+    "static/media/phoneCall.png": "/amemelwin.github.io/static/media/phoneCall.d1d41a9c97a31127f4ee.png",
+    "static/media/react.png": "/amemelwin.github.io/static/media/react.1dff35f651faa104af64.png",
+    "static/media/laravel.png": "/amemelwin.github.io/static/media/laravel.146bfaba60547eb53481.png",
+    "static/media/tailwind.png": "/amemelwin.github.io/static/media/tailwind.088db0138f2b6f11e429.png",
+    "static/media/logo.riv": "/amemelwin.github.io/static/media/logo.3747440369523677909d.riv",
+    "static/media/nav_logo.riv": "/amemelwin.github.io/static/media/nav_logo.789eb27f850f26b6b9c8.riv",
+    "static/media/bulb.riv": "/amemelwin.github.io/static/media/bulb.9ecee2034ec38ea1e608.riv",
+    "index.html": "/amemelwin.github.io/index.html",
+    "static/media/drop.riv": "/amemelwin.github.io/static/media/drop.4514085ca66c9f435f80.riv",
+    "main.5cf582da.css.map": "/amemelwin.github.io/static/css/main.5cf582da.css.map",
+    "main.85257b67.js.map": "/amemelwin.github.io/static/js/main.85257b67.js.map",
+    "787.1ed0c42c.chunk.js.map": "/amemelwin.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf582da.css",
+    "static/js/main.85257b67.js"
+  ]
+}
