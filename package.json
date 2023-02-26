@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://amemelwin.github.io/amemelwin.github.io",
+  "homepage": "https://amemelwin.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0",

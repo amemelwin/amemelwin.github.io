@@ -89,7 +89,7 @@ const HomeScreen = ({ toggleTheme, dark, isDrop, setIsDrop }: any) => {
     return (
         <div id="main" className="">
             {
-                true && <div className="fixed top-[120px] p-2 rounded-r-md bg-blue-800 z-50">
+                false && <div className="fixed top-[120px] p-2 rounded-r-md bg-blue-800 z-50">
                     <div>y: {Math.floor(scrollPosition)}</div>
                     {/* <div>main: {mainY}</div> */}
                     {/* <div>YOff: {pageYOffset}</div> */}

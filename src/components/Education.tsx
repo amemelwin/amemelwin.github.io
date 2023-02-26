@@ -49,6 +49,7 @@ const Education = ({ active }: EducationProps) => {
     const year = '5th year of undergraduate study';
     const { t, i18n } = useTranslation();
     const resume = require('@assets/certis/CVResume-ENG.pdf');
+    const rirekisyo = require('@assets/certis/rirekisyo.pdf');
     useEffect(() => {
     })
     return (
@@ -99,14 +100,12 @@ const Education = ({ active }: EducationProps) => {
                     </a>
                     <a
                         className="button"
-                        href={resume}
+                        href={rirekisyo}
                         target="_blank" rel="noreferrer"
                     >
                         <div className='bg-red-300 text-red-600  md:text-xl cursor-pointer flex flex-row items-center rounded select-none py-2 px-4 md:py-3 md:px-6'>
                             <div className='mr-3'><FaDownload size={20} /></div>
-
                             履歴書
-
                         </div>
                     </a>
                 </Fade>

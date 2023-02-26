@@ -13,7 +13,7 @@ const App = () => {
   const [isDrop, setIsDrop] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isApiFetching, setIsApiFetching] = useState(false);
-  let inLoop = false;
+  let inLoop = false; 
   const toggleTheme = () => {
     // dark, dispatch, setDark
     Local.toggleTheme({ dark, dispatch, setDarkMode });

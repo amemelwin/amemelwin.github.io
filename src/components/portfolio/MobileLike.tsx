@@ -12,7 +12,7 @@ const MobileLike = () => {
     return (<>
         <div className='container mx-auto flex flex-col md:flex-row-reverse '>
             <div className="flex-1 flex-col mx-10">
-                <a href='https://shop.mobilelikemm.com/' target="_blank" rel="noreferrer">
+                <a href='https://mobilelikemm.com/' target="_blank" rel="noreferrer">
                     <div className=' flex flex-row  '>
                         <div className='relative '><img src={mobile_like} className=" object-contain h-72 " />
                             <div className=' right-0 bottom-14 md:bottom-0 absolute'><img src={mobile_like_m} className=" object-contain h-32 md:h-48" alt='hero' />
@@ -22,8 +22,8 @@ const MobileLike = () => {
                 </a>
             </div>
             <div className='flex-1 flex flex-col items-start justify-center  '>
-                <a href="https://shop.mobilelikemm.com/" className='dark:text-white text-gray-600 text-lg md:text-xl font-bold my-2 '>Mobile Like Phone Shop</a>
-                <a href="https://shop.mobilelikemm.com/" className='italic text-blue-500 dark:font-bold dark:text-textGreen mb-1' >https://shop.mobilelikemm.com</a>
+                <a href="https://mobilelikemm.com/" className='dark:text-white text-gray-600 text-lg md:text-xl font-bold my-2 '>Mobile Like Phone Shop</a>
+                <a href="https://mobilelikemm.com/" className='italic text-blue-500 dark:font-bold dark:text-textGreen mb-1' >https://mobilelikemm.com/</a>
                 <div className='dark:text-textGreen text-blue-900 font-[100px] md:font-[200px] text-[14px] md:text-[16px]'>{t(mobile_description)}</div>
                 <div className='dark:text-[#D0D0D0] text-dark  w-full text-sm md:text-md  mt-3 grid grid-cols-2 md:grid-cols-4 '>
                     <Zoom cascade damping={0.3} className="flex flex-row  w-full">
@@ -33,7 +33,6 @@ const MobileLike = () => {
                     </Zoom >
                 </div>
                 <div className='flex flex-row justify-between md:justify-start mt-8 w-full'>
-
                 </div>
             </div>
 
