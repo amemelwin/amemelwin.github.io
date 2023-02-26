@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5cf582da.css",
-    "main.js": "/static/js/main.f8aa9d94.js",
+    "main.js": "/static/js/main.9d2b03a0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/CVResume-ENG.pdf": "/static/media/CVResume-ENG.776bc0e76958e8502cc6.pdf",
     "static/media/banner_amie.png": "/static/media/banner_amie.65853286699ae0441f96.png",
     "static/media/photo.png": "/static/media/photo.10454b98a25f0f5eff2d.png",
     "static/media/profile.png": "/static/media/profile.1a0afe55248b324af375.png",
     "static/media/mobile_like.png": "/static/media/mobile_like.669a3d5a69851e1ec0d8.png",
+    "static/media/rirekisyo.pdf": "/static/media/rirekisyo.b5815bd9a6ca4fc73aaa.pdf",
     "static/media/1.png": "/static/media/1.56bcc4e0df4f59ead615.png",
     "static/media/mobile-mobile.png": "/static/media/mobile-mobile.14260d14313e448e004a.png",
     "static/media/phoneCall.png": "/static/media/phoneCall.d1d41a9c97a31127f4ee.png",
@@ -20,11 +21,11 @@
     "index.html": "/index.html",
     "static/media/drop.riv": "/static/media/drop.4514085ca66c9f435f80.riv",
     "main.5cf582da.css.map": "/static/css/main.5cf582da.css.map",
-    "main.f8aa9d94.js.map": "/static/js/main.f8aa9d94.js.map",
+    "main.9d2b03a0.js.map": "/static/js/main.9d2b03a0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf582da.css",
-    "static/js/main.f8aa9d94.js"
+    "static/js/main.9d2b03a0.js"
   ]
 }
