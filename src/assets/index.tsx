@@ -14,7 +14,7 @@ export const profileImg = {
 export const languageImg = {
     vue: require("./images/vueJs.png"),
     react: require("./images/react.png"),
-    tailwind: require("./images/tailwind.png"),
+    spring: require("./images/spring.png"),
     laravel: require("./images/laravel.png")
 
 }

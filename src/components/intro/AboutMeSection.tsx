@@ -2,10 +2,10 @@ import { memo } from "react";
 import { useTranslation } from 'react-i18next';
 import { TiTick } from 'react-icons/ti';
 import { profileImg } from "@assets";
-import { Zoom, Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const AboutMeSection = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const about = "About Me";
     const intro = "Hello World! I'm Amie. Nice to meet you.";
     const body = "During the suspension of school due to covid-19 and other situations, I conducted studies related to IT. And I attended software development courses and participated in some projects with freelancer friends. In 2022, I became a member of Integrated Solution and participated in developing teaching aid softwares  for learning Japanese language such as JLPT N4, JLPT N3 Apps , and E-commerce system for Mobile Like phone shop from Mandalay.";
@@ -46,7 +46,7 @@ const AboutMeSection = () => {
                             <TiTick size={20} className="dark:text-textGreen" />
                             JavaScript(ES6+)
                         </div>
-                        <div className="flex-1 flex flex-row  items-center "> <TiTick size={20} className="dark:text-textGreen" />TypeScript</div>
+                        <div className="flex-1 flex flex-row  items-center "> <TiTick size={20} className="dark:text-textGreen" />Java Spring Boot</div>
                     </div>
                     <div className='flex flex-row justify-between  mb-1 w-full dark:text-gray-400 text-gray-600 text-sm lg:text-md'>
                         <div className="flex-1 flex flex-row  items-center "> <TiTick size={20} className="dark:text-textGreen" />React Js</div>

@@ -3,16 +3,24 @@ import { profileImg, languageImg } from '@assets';
 import { useTranslation } from 'react-i18next';
 import AboutMeSection from './AboutMeSection';
 import AmieBanner from "@components/AmieBanner";
-import { Fade, Flip, Bounce } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 interface IntroSectionProps {
     active: boolean
 }
 const IntroSection = ({ active }: IntroSectionProps) => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const greeting = "Hi, my name is";
     const name = "A Mie Mie Lwin.";
     const quotes = "I build things for your future.";
     const languageImgs = [
+        {
+            icon: languageImg.spring,
+            label: 'Spring Boot'
+        },
+        {
+            icon: languageImg.laravel,
+            label: 'Laravel'
+        },
         {
             icon: languageImg.react,
             label: 'ReactJs'
@@ -20,15 +28,7 @@ const IntroSection = ({ active }: IntroSectionProps) => {
         {
             icon: languageImg.vue,
             label: 'VueJs'
-        },
-        {
-            icon: languageImg.laravel,
-            label: 'Laravel'
-        },
-        {
-            icon: languageImg.tailwind,
-            label: 'TailwindCss'
-        },
+        }              
     ]
     const imageStyle = {
         sm: 'w-[150px] h-[150px] rounded-tl-[55px] rounded-tr-[35px] rounded-bl-[35px] rounded-br-[55px] border-4 dark:border-textGreen border-dark',
@@ -56,7 +56,7 @@ const IntroSection = ({ active }: IntroSectionProps) => {
                             {
                                 languageImgs.map(({ icon, label }) =>
                                     <div key={label} className='flex flex-col md:mr-8 items-center justify-center '>
-                                        <div><img src={icon} className='w-12 md:w-14  h-12 md:h-14 rounded-lg shadow-sm shadow-slate-400 dark:shadow-gray-' /></div>
+                                        <div><img src={icon} alt="icon" className='w-12 md:w-14  h-12 md:h-14 rounded-lg shadow-sm shadow-slate-400 dark:shadow-gray-' /></div>
                                         <div className='mt-1 md:text-sm text-gray-600 dark:text-gray-400 font-semibold text-[11px]'>{label}</div>
                                     </div>
                                 )

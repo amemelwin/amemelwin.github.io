@@ -2,8 +2,7 @@ import { memo, useEffect } from 'react';
 import { VscCircleFilled } from 'react-icons/vsc';
 import { useTranslation } from 'react-i18next';
 import { FaDownload } from 'react-icons/fa';
-import { TbBrandJavascript } from 'react-icons/tb';
-import { Fade, Flip, Bounce, Slide, Hinge, JackInTheBox, Roll } from "react-awesome-reveal";
+import { Fade} from "react-awesome-reveal";
 import ProgressBarComponent, { ProgressBarProps } from './education/ProgressBarComponent';
 const progressBars: Array<ProgressBarProps> = [
     {
@@ -11,7 +10,7 @@ const progressBars: Array<ProgressBarProps> = [
         completed: 85
     },
     {
-        title: 'JavaScript(ES6+)/ TypeScript ',
+        title: 'JavaScript(ES6+)/ Java Spring Boot ',
         completed: 75
     },
     {
@@ -47,8 +46,8 @@ const Education = ({ active }: EducationProps) => {
     const pass = 'Year Passed Matriculation Exam - 2015';
     const state = 'NO.1, BEHS Myitkyina, Kachin State';
     const year = '5th year of undergraduate study';
-    const { t, i18n } = useTranslation();
-    const resume = require('@assets/certis/CVResume-ENG.pdf');
+    const { t } = useTranslation();
+    const resume = require('@assets/certis/A MIE MIE LWIN CV FORM.pdf');
     const rirekisyo = require('@assets/certis/rirekisyo.pdf');
     useEffect(() => {
     })
@@ -58,10 +57,13 @@ const Education = ({ active }: EducationProps) => {
             <div className=' container mx-auto flex flex-col md:flex-row justify-evenly mt-5 md:mt-12   '>
                 <div className='flex-1 flex flex-col   rounded-md   '>
                     <div className='flex flex-col text-white bg-[#1c3d58]  dark:bg-[#0C2D48] py-4 px-4  dark:text-white rounded-t-md font-semibold justify-center items-center h-full '>
+                        <div className='p-2 lg:px-6  flex flex-row items-center'><VscCircleFilled className='text-[#32a84e] dark:text-yellow-300 mr-3 justify-center text-2xl' />April,2023 - ITPEC ( Fundamental of Information Technology Engineer Examination)</div>
+                    </div>
+                    <div className='flex flex-col text-white bg-[#1c3d58]  dark:bg-[#0C2D48] px-4  dark:text-white rounded-t-md font-semibold justify-center items-center h-full '>
                         <div>{t(uni)} </div>
                         <div>{t(ycc)}</div>
                     </div>
-                    <div className=' p-4 lg:p-8 items-center leading-6  md:leading-7   text-white bg-[#1c3d58] dark:bg-[#0C2D48]   font-[100px] md:font-[200px] rounded-b-md text-[13px] md:text-[14px] lg:text-[16px] h-full'>
+                    <div className=' p-4 lg:p-8 items-center leading-5  md:leading-5   text-white bg-[#1c3d58] dark:bg-[#0C2D48]   font-[100px] md:font-[200px] rounded-b-md text-[13px] md:text-[14px] lg:text-[16px] h-full'>
                         <div className='flex flex-row items-center'><VscCircleFilled className='text-[#32a84e] dark:text-yellow-300 mr-3 justify-center ' />{t(uniDate)}</div>
                         <div className='flex flex-row items-center'><VscCircleFilled className='text-[#32a84e] dark:text-yellow-300 mr-3 justify-center' />{t(major)}</div>
                         <div className='flex flex-row items-center'><VscCircleFilled className='text-[#32a84e] dark:text-yellow-300 mr-3 justify-center' /> {t(year)} </div>
