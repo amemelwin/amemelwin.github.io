@@ -12,7 +12,7 @@ export const jp = {
     // Intro
     "Hi, my name is": "こんにちは！　私は",
     "A Mie Mie Lwin.": "エイミミルイン　です。",
-    "I build things for your future.": "＾私（わたし）｜たちはあなたの美しい未来を創造します！",
+    "I build things for your future.": "＾私（わたし）｜ たちは あなたの 美しい 未来 を創造します",
     //About Me
     "About Me": "自己紹介...",
     "Hello World! I'm Amie. Nice to meet you.": "こんにちは！エイミです。会えて嬉しい。",
