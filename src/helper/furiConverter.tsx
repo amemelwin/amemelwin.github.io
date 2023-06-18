@@ -3,7 +3,7 @@ interface FuriType {
     furiStyle: string;
     style: string;
 }
-export const furiConverter = ( context:string, furiStyle:string, style :string) => {
+export const furiConverter = ({ context, furiStyle, style }: FuriType) => {
     if (!context.includes("！") && !context.includes("＾")) {
         return (<>
             <div className={`flex flex-row  ${style}`}>
@@ -22,7 +22,7 @@ export const furiConverter = ( context:string, furiStyle:string, style :string) 
         const textArray = text.split("）")
         // ['天（てん', '気（き', '']
         return (<>
-            <div className="flex flex-row mx-1">
+            <div className="flex flex-row mx-1 w-[100px] bg-black">
                 {
                     textArray.map((withfuri, i) => {
                         if (withfuri.length > 0) {
@@ -80,15 +80,20 @@ export const furiConverter = ( context:string, furiStyle:string, style :string) 
         </>)
     }
     const normal = (text: string) => {
+        const textList = text.split("");
         return (<>
-            <div className="flex flex-col items-center leading-tight">
-                {<div className={`${furiStyle}`}>　</div>}
-                <div className="">{text}</div>
-            </div>
+            {
+                textList.map((char, i) => {
+                    return <div key={i} className="flex flex-col items-center leading-tight">
+                        <div className={`${furiStyle}`}>　</div>
+                        <div className="">{char}</div>
+                    </div>
+                } )
+            }
         </>)
     }
     return (<>
-        <div className={`flex flex-row ${style}`}>
+        <div className={`flex flex-row`}>
             {/* flex-wrap  */}
             {
                 spliter.map((text:any, i:any) => {
