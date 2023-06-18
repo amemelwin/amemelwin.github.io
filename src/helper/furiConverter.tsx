@@ -22,7 +22,7 @@ export const furiConverter = ({ context, furiStyle, style }: FuriType) => {
         const textArray = text.split("）")
         // ['天（てん', '気（き', '']
         return (<>
-            <div className="flex flex-row mx-1 w-[100px] bg-black">
+            <div key={Math.random()} className="flex flex-row mx-1">
                 {
                     textArray.map((withfuri, i) => {
                         if (withfuri.length > 0) {
@@ -31,7 +31,9 @@ export const furiConverter = ({ context, furiStyle, style }: FuriType) => {
                             // search kanji from library
                            return (
                                     <div key={i} className="flex flex-col items-center leading-tight">
-                                   <div className={`${furiStyle}`}>{furigana}</div>
+                                        <div className="flex flex-row">
+                                            <div className={`${furiStyle} flex-1`}>{furigana}</div>
+                                        </div>
                                         <div className="">{kanji}</div>
                                     </div>
                                 )
@@ -49,7 +51,7 @@ export const furiConverter = ({ context, furiStyle, style }: FuriType) => {
         const textArray = text.split("）")
         // [' 買（か', 'ったん']
         return (<>
-            <div className="px-2 flex flex-row border-b-2 dark:border-white border-blue-500 mx-1">
+            <div key={Math.random()} className="px-2 flex flex-row border-b-2 dark:border-white border-blue-500 mx-1">
                 {
                     textArray.map((withfuri, i) => {
                         if (withfuri.length > 0) {
@@ -93,20 +95,14 @@ export const furiConverter = ({ context, furiStyle, style }: FuriType) => {
         </>)
     }
     return (<>
-        <div className={`flex flex-row`}>
+        <div className={`flex flex-row ${style}`}>
             {/* flex-wrap  */}
             {
                 spliter.map((text:any, i:any) => {
-                    return <div key={i} className={`flex flex-row ${style}`}>
-                        {
-                            text.includes("＾") ? furi(text) :
+                    return text.includes("＾") ? furi(text) :
                                 (text.includes("！") ? furiUnderline(text) : normal(text))
-                        }
-                    </div>
                 })
             }
         </div>
     </>);
 }
-
-//export default furiConverter;

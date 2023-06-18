@@ -1,11 +1,13 @@
+import { profileImg } from "@assets";
 import { memo } from "react";
+import { Fade } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 import { TiTick } from 'react-icons/ti';
-import { profileImg } from "@assets";
-import { Fade } from "react-awesome-reveal";
+import { furiConverter } from "../../helper/furiConverter";
 
 const AboutMeSection = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const lan = i18n.language;
     const about = "About Me";
     const intro = "Hello World! I'm Amie. Nice to meet you.";
     const body = "During the suspension of school due to covid-19 and other situations, I conducted studies related to IT. And I attended software development courses and participated in some projects with freelancer friends. In 2022, I became a member of Integrated Solution and participated in developing teaching aid softwares  for learning Japanese language such as JLPT N4, JLPT N3 Apps , and E-commerce system for Mobile Like phone shop from Mandalay.";
@@ -13,13 +15,53 @@ const AboutMeSection = () => {
     const profile = profileImg.profile;
     // const languageItems = ['JavaScript(ES6+)', 'TypeScript', 'ReactJs', 'Tailwind CSS', 'Vue Js', 'PHP/Laravel', 'MySQL', 'PostgreSQL']
     return (<>
-        <div className='dark:text-white text-gray-600 text-xl lg:text-2xl font-bold mt-12 mb-12'>{t(about)}</div>
+        <div className='dark:text-white text-gray-600 text-xl lg:text-2xl font-bold mt-12 mb-12'>
+            {
+                lan=="jp"?  
+                furiConverter({ 
+                    context: t(about), 
+                    furiStyle: "text-[12px] lg:text-sm", 
+                    style:  "flex-wrap"
+                }) 
+                :t(about)
+            }
+        </div>
         <div className='flex flex-col-reverse md:flex-row-reverse '>
             <div className='flex-[7] mb-[70px] md:py-[0px] flex flex-col items-start justify-center md:pr-8  md:text-justify'>
                 <div className="dark:text-textGreen text-blue-900 font-[100px] md:font-[200px] mt-3 text-[14px] md:text-[16px]">
-                    <div className='mt-3'>{t(intro)}</div>
-                    <div className=' mt-3'>{t(body)}</div>
-                    <div className=' mt-3'>{t(conclusion)}</div>
+                    <div className='mt-3'>
+                        {
+                            lan=="jp"?  
+                            furiConverter({ 
+                                context: t(intro), 
+                                furiStyle: "text-[10px] lg:text-[12px]", 
+                                style:  "flex-wrap"
+                            }) 
+                            :t(intro)
+                        }
+                    </div>
+                    <div className=' mt-3'>
+                        {
+                            lan=="jp"?  
+                            furiConverter({ 
+                                context: t(body), 
+                                furiStyle: "text-[10px] lg:text-[12px]", 
+                                style:  "flex-wrap"
+                            }) 
+                            :t(body)
+                        }
+                    </div>
+                    <div className=' mt-3'>
+                        {
+                            lan=="jp"?  
+                            furiConverter({ 
+                                context: t(conclusion), 
+                                furiStyle: "text-[10px] lg:text-[12px]", 
+                                style:  "flex-wrap"
+                            }) 
+                            :t(conclusion)
+                        }
+                    </div>
                 </div>
                 <div className="h-10"></div>
                 <div className=""></div>
