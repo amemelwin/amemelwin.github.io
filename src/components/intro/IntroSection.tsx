@@ -1,10 +1,11 @@
-import { memo } from 'react';
-import { profileImg, languageImg } from '@assets';
-import { useTranslation } from 'react-i18next';
-import AboutMeSection from './AboutMeSection';
+import { languageImg, profileImg } from '@assets';
 import AmieBanner from "@components/AmieBanner";
+import { memo } from 'react';
 import { Bounce } from "react-awesome-reveal";
-import furiConverter from "../../helper/furiConverter";
+import { useTranslation } from 'react-i18next';
+import { furiConverter } from "../../helper/furiConverter";
+import AboutMeSection from './AboutMeSection';
+
 interface IntroSectionProps {
     active: boolean
 }
@@ -13,6 +14,7 @@ const IntroSection = ({ active }: IntroSectionProps) => {
     const greeting = "Hi, my name is";
     const name = "A Mie Mie Lwin.";
     const quotes = "I build things for your future.";
+    const qData =  { context: "＾大（だい）学（がく）", furiStyle: "", style:  ""};
     const languageImgs = [
         {
             icon: languageImg.spring,
@@ -29,7 +31,7 @@ const IntroSection = ({ active }: IntroSectionProps) => {
         {
             icon: languageImg.vue,
             label: 'VueJs'
-        }              
+        }
     ]
     const imageStyle = {
         sm: 'w-[150px] h-[150px] rounded-tl-[55px] rounded-tr-[35px] rounded-bl-[35px] rounded-br-[55px] border-4 dark:border-textGreen border-dark',
@@ -51,7 +53,8 @@ const IntroSection = ({ active }: IntroSectionProps) => {
                     <div className='dark:text-textGreen text-blue-900 font-semibold'>{t(greeting)}</div>
                     <div className='dark:text-white text-dark text-2xl md:text-3xl lg:text-4xl font-bold mt-6'>{t(name)}</div>
                     <div className='dark:text-gray-400 text-gray-600 text-xl lg:text-2xl font-bold mt-6'>
-                        {furiConverter({ content: t(quotes) ,furiStyle:"",style:""}) }
+                        { furiConverter(qData:FuriType) }
+                        {/* t(quotes)  */}
                     </div>
                     {/* <div className='grid grid-cols-4  md:gap-8 mt-8 justify-items-center '> */}
                     <div className='flex flex-row justify-between md:justify-start mt-8 w-full'>
