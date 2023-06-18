@@ -11,7 +11,8 @@ module.exports = {
       '@store': path.resolve(__dirname, 'src/store'),
       '@reducer': path.resolve(__dirname, 'src/reducer'),
       '@localization': path.resolve(__dirname, 'src/localization'),
-      '@route': path.resolve(__dirname, 'src/route')
+      '@route': path.resolve(__dirname, 'src/route'),
+      '@helper': path.resolve(__dirname,'src/helper')
     }
   },
   jest: {

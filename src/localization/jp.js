@@ -11,11 +11,11 @@ export const jp = {
     'en': "英語",
     // Intro
     "Hi, my name is": "こんにちは！　私は",
-    "A Mie Mie Lwin.": "アミミルイン　です。",
-    "I build things for your future.": "私たちはあなたの美しい未来を創造します！",
+    "A Mie Mie Lwin.": "エイミミルイン　です。",
+    "I build things for your future.": "＾私（わたし）｜たちはあなたの美しい未来を創造します！",
     //About Me
     "About Me": "自己紹介...",
-    "Hello World! I'm Amie. Nice to meet you.": "こんにちは！アミです。会えて嬉しい。",
+    "Hello World! I'm Amie. Nice to meet you.": "こんにちは！エイミです。会えて嬉しい。",
     "During the suspension of school due to covid-19 and other situations, I conducted studies related to IT. And I attended software development courses and participated in some projects with freelancer friends. In 2022, I became a member of Integrated Solution and participated in developing teaching aid softwares  for learning Japanese language such as JLPT N4, JLPT N3 Apps , and E-commerce system for Mobile Like phone shop from Mandalay.": "コロナウイルスの感染と様々な状態で、大学での勉強を中止にすることになっている中に、私はIT関係の勉強を追求しました。IT に関する授業も受けるし、他のフリーランサーと多くのプロジェクトをしました。2022年に、Integrated Solutionというソフトウェア会社の職員になって、日本語（N5レベル、N4レベル、N3レベル）を学ぶのに助かるソフトウェアと Mobile Like というマンダレーにある携帯店のために、通販システムを作るのに参加しました。",
     "I have passed the N3 level of Japanese and currently studying and preparing to enter the workplace.": "日本語は N3レベルに 合格して おり、現在 就職準備を　しています。",
     //Portfolio
