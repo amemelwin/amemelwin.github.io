@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import AboutMeSection from './AboutMeSection';
 import AmieBanner from "@components/AmieBanner";
 import { Bounce } from "react-awesome-reveal";
-import furiConverter from "../../helper/furiConverter";
+import { furiConverter } from "../../helper/furiConverter";
 interface IntroSectionProps {
     active: boolean
 }
@@ -51,7 +51,8 @@ const IntroSection = ({ active }: IntroSectionProps) => {
                     <div className='dark:text-textGreen text-blue-900 font-semibold'>{t(greeting)}</div>
                     <div className='dark:text-white text-dark text-2xl md:text-3xl lg:text-4xl font-bold mt-6'>{t(name)}</div>
                     <div className='dark:text-gray-400 text-gray-600 text-xl lg:text-2xl font-bold mt-6'>
-                        {furiConverter({ content: t(quotes) ,furiStyle:"",style:""}) }
+                        {furiConverter(  "＾大（だい）学（がく）",  "",  "" )}
+                        {/* t(quotes) */}
                     </div>
                     {/* <div className='grid grid-cols-4  md:gap-8 mt-8 justify-items-center '> */}
                     <div className='flex flex-row justify-between md:justify-start mt-8 w-full'>

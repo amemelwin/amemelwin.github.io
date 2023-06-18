@@ -1,9 +1,9 @@
 interface FuriType {
-    context: String;
-    furiStyle: String;
-    style: String;
+    context: string;
+    furiStyle: string;
+    style: string;
 }
-const furiConverter = ({ context, furiStyle, style }: any) => {
+export const furiConverter = ( context:string, furiStyle:string, style :string) => {
     if (!context.includes("！") && !context.includes("＾")) {
         return (<>
             <div className={`flex flex-row  ${style}`}>
@@ -104,4 +104,4 @@ const furiConverter = ({ context, furiStyle, style }: any) => {
     </>);
 }
 
-export default furiConverter;
+//export default furiConverter;
