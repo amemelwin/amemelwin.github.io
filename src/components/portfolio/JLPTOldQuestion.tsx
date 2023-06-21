@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { TiTick } from 'react-icons/ti';
+import { Card} from "@material-tailwind/react";
 import { projectImg } from '@assets';
 import { useTranslation } from 'react-i18next';
 import { Bounce } from "react-awesome-reveal";

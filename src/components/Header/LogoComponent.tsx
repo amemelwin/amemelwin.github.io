@@ -15,7 +15,6 @@ const LogoComponent = ({ dark }: MenuIconProps) => {
         autoplay: true,
     }
     const { rive, RiveComponent } = useRive(params);
-    const dropInput = useStateMachineInput(rive, stateMachines, stateName, true);
     return (<>
         <div
             className="w-8 h-8">
