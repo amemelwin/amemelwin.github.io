@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.782069a6.css",
-    "main.js": "/static/js/main.bd5583eb.js",
+    "main.js": "/static/js/main.5cd31120.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/banner_amie.png": "/static/media/banner_amie.65853286699ae0441f96.png",
     "static/media/photo.png": "/static/media/photo.10454b98a25f0f5eff2d.png",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/drop.riv": "/static/media/drop.4514085ca66c9f435f80.riv",
     "main.782069a6.css.map": "/static/css/main.782069a6.css.map",
-    "main.bd5583eb.js.map": "/static/js/main.bd5583eb.js.map",
+    "main.5cd31120.js.map": "/static/js/main.5cd31120.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.782069a6.css",
-    "static/js/main.bd5583eb.js"
+    "static/js/main.5cd31120.js"
   ]
 }
