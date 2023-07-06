@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.782069a6.css",
-    "main.js": "/static/js/main.5cd31120.js",
+    "main.js": "/static/js/main.ab8b5ad1.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/banner_amie.png": "/static/media/banner_amie.65853286699ae0441f96.png",
     "static/media/photo.png": "/static/media/photo.10454b98a25f0f5eff2d.png",
     "static/media/A MIE MIE LWIN CV FORM.pdf": "/static/media/A MIE MIE LWIN CV FORM.af11250c5af21c39efce.pdf",
     "static/media/profile.png": "/static/media/profile.1a0afe55248b324af375.png",
     "static/media/mobile_like.png": "/static/media/mobile_like.669a3d5a69851e1ec0d8.png",
-    "static/media/rirekisyo.pdf": "/static/media/rirekisyo.026091dee43e133a2711.pdf",
     "static/media/1.png": "/static/media/1.56bcc4e0df4f59ead615.png",
     "static/media/mobile-mobile.png": "/static/media/mobile-mobile.14260d14313e448e004a.png",
+    "static/media/rirekisyo.pdf": "/static/media/rirekisyo.714c5286e313016b2cd0.pdf",
     "static/media/phoneCall.png": "/static/media/phoneCall.d1d41a9c97a31127f4ee.png",
     "static/media/react.png": "/static/media/react.1dff35f651faa104af64.png",
     "static/media/laravel.png": "/static/media/laravel.146bfaba60547eb53481.png",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/drop.riv": "/static/media/drop.4514085ca66c9f435f80.riv",
     "main.782069a6.css.map": "/static/css/main.782069a6.css.map",
-    "main.5cd31120.js.map": "/static/js/main.5cd31120.js.map",
+    "main.ab8b5ad1.js.map": "/static/js/main.ab8b5ad1.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.782069a6.css",
-    "static/js/main.5cd31120.js"
+    "static/js/main.ab8b5ad1.js"
   ]
 }
