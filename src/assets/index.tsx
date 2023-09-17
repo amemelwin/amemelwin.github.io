@@ -21,6 +21,7 @@ export const languageImg = {
 export const projectImg = {
     mobile_like: require('@assets/project/mobile_like.png'),
     mobile_like_m: require('@assets/project/mobile-mobile.png'),
+    minna_master_n4: require('@assets/project/minnamastern4.svg'),
     jlpt_oldQ: require('@assets/project/1.png'),
     jlpt_n3: require('@assets/project/jlpt-n3.jpg'),
     jlpt_n4: require('@assets/project/jlpt-n4.jpg'),
