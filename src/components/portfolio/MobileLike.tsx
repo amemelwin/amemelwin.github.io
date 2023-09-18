@@ -1,8 +1,8 @@
-import { TiTick } from 'react-icons/ti';
 import { projectImg } from '@assets';
-import { useTranslation } from 'react-i18next';
 import { memo } from 'react';
-import { Zoom, Slide } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
+import { useTranslation } from 'react-i18next';
+import { TiTick } from 'react-icons/ti';
 
 const MobileLike = () => {
     const { t, i18n } = useTranslation();

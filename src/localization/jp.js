@@ -21,6 +21,7 @@ export const jp = {
     //Portfolio
     "The website developed for the Mobile Like Phone shop in Mandalay, Progress web application (PWA) technology is used, so it can be used not only as a web app, but also as a mobile app.": "マンダレーの Mobile Like Shop のために 開発された ウェブサイトは、Progress web application （PWA）技術を使用しているため、ウェブアプリだけでなく、モバイルアプリとしても利用できます。",
     "Recent Projects": "最近のプロジェクト",
+    "Minna  Master N4 is for Japanese Learning platform  website application and specially designed for Japanese N4 level learners.  This all-in-one app provides essential skills of vocabulary, kanji grammar and conversation.":"みんなマスター N4 は、日本語学習プラットフォーム Web サイト アプリケーションであり、日本語 N4 レベルの学習者向けに特別に設計されています。このオールインワンアプリは、語彙、漢字文法、会話の必須スキルを提供します。",
     "It is a Progressive Web-Application designed to make it easy to practice old JLPT questions from devices such as mobile phones and laptops.Vue JS is used as the frontend framework, and Tailwind CSS is used for the design. It is planned to be used offline for the convenience of users, and can be easily downloaded from Google Playstore for Android users.": "携帯電話やノートパソコンなどの　デバイスから　日本語能力試験の　問題集を　簡単に　練習できるように　開発された　Progressiv Web Application (PWA) です。Frontend Framework には Vue JS を使用し、デザインには Tailwind CSS を使用しています。ユーザーの便宜のために オフラインで 使用する予定で、Android ユーザーは Google Playstore から 簡単に ダウンロードできます。",
     //Education
     "University Of Technology": "工科大学",
