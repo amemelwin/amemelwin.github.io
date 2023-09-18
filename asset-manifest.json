@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.782069a6.css",
-    "main.js": "/static/js/main.ab8b5ad1.js",
+    "main.css": "/static/css/main.e601d10b.css",
+    "main.js": "/static/js/main.43e0df8c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/banner_amie.png": "/static/media/banner_amie.65853286699ae0441f96.png",
     "static/media/photo.png": "/static/media/photo.10454b98a25f0f5eff2d.png",
@@ -12,6 +12,7 @@
     "static/media/mobile-mobile.png": "/static/media/mobile-mobile.14260d14313e448e004a.png",
     "static/media/rirekisyo.pdf": "/static/media/rirekisyo.714c5286e313016b2cd0.pdf",
     "static/media/phoneCall.png": "/static/media/phoneCall.d1d41a9c97a31127f4ee.png",
+    "static/media/minnamastern4.png": "/static/media/minnamastern4.ad72d699496f85cad27c.png",
     "static/media/react.png": "/static/media/react.1dff35f651faa104af64.png",
     "static/media/laravel.png": "/static/media/laravel.146bfaba60547eb53481.png",
     "static/media/logo.riv": "/static/media/logo.3747440369523677909d.riv",
@@ -19,12 +20,12 @@
     "static/media/bulb.riv": "/static/media/bulb.9ecee2034ec38ea1e608.riv",
     "index.html": "/index.html",
     "static/media/drop.riv": "/static/media/drop.4514085ca66c9f435f80.riv",
-    "main.782069a6.css.map": "/static/css/main.782069a6.css.map",
-    "main.ab8b5ad1.js.map": "/static/js/main.ab8b5ad1.js.map",
+    "main.e601d10b.css.map": "/static/css/main.e601d10b.css.map",
+    "main.43e0df8c.js.map": "/static/js/main.43e0df8c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.782069a6.css",
-    "static/js/main.ab8b5ad1.js"
+    "static/css/main.e601d10b.css",
+    "static/js/main.43e0df8c.js"
   ]
 }
