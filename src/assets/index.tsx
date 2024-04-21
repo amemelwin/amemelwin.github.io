@@ -15,7 +15,8 @@ export const languageImg = {
     vue: require("./images/vueJs.png"),
     react: require("./images/react.png"),
     spring: require("./images/spring.png"),
-    laravel: require("./images/laravel.png")
+    laravel: require("./images/laravel.png"),
+    aws:  require("./images/aws.jpg")
 
 }
 export const projectImg = {

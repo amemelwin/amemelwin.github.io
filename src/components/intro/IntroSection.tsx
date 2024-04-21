@@ -18,19 +18,23 @@ const IntroSection = ({ active }: IntroSectionProps) => {
     const languageImgs = [
         {
             icon: languageImg.spring,
-            label: lan=='jp'?"スプリング":'Spring Boot'
+            label: 'Spring Boot'//lan=='jp'?"スプリング":'Spring Boot'
         },
         {
-            icon: languageImg.laravel,
-            label: lan=='jp'?"ララベル":'Laravel'
+            icon: languageImg.aws,
+            label: 'AWS'
         },
         {
             icon: languageImg.react,
-            label: lan=='jp'?"リアクト":'ReactJs'
+            label: 'ReactJs'
         },
         {
+            icon: languageImg.laravel,
+            label: 'Laravel'
+        },       
+        {
             icon: languageImg.vue,
-            label: lan=='jp'?"ビュー":'VueJs'
+            label: 'VueJs'
         }
     ]
     const imageStyle = {

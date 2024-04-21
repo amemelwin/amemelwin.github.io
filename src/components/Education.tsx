@@ -1,8 +1,8 @@
 import { memo, useEffect } from 'react';
-import { VscCircleFilled } from 'react-icons/vsc';
+import { Fade } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 import { FaDownload } from 'react-icons/fa';
-import { Fade} from "react-awesome-reveal";
+import { VscCircleFilled } from 'react-icons/vsc';
 import ProgressBarComponent, { ProgressBarProps } from './education/ProgressBarComponent';
 const progressBars: Array<ProgressBarProps> = [
     {
@@ -48,7 +48,7 @@ const Education = ({ active }: EducationProps) => {
     const year = '5th year of undergraduate study';
     const { t } = useTranslation();
     const resume = require('@assets/certis/A MIE MIE LWIN CV FORM.pdf');
-    const rirekisyo = require('@assets/certis/rirekisyo.pdf');
+    const rirekisyo = require('@assets/certis/rirekisho_21042024.pdf');
     useEffect(() => {
     })
     return (
